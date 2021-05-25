@@ -510,7 +510,7 @@ function draw(){
                 text("How to play?",width/2,height/2 + 130);
                 textSize(18)
                 fill([245, 71, 71])
-                text("Use keys A & S for moving",width/2,height/2 + 160);
+                text("Use keys A and D for moving",width/2,height/2 + 160);
                 text("Press SPACEBAR for shooting",width/2,height/2 + 190);
                 text("Use keys 1, 2, 3 for select your abilities",width/2,height/2 + 220);
                 text("Use P for pause/resume THE GAME",width/2,height/2 + 250);

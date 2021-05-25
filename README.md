@@ -1,6 +1,6 @@
 Space Invaders básico para la materia de Graficación <br/>
 **Integrante:** <br/>
-Rubén Jasahel Sandoval Pérez
+Rubén Jasahel Sandoval Pérez <br />
 **Instucciones:** <br />
 Usa las teclas A y D para moverte <br />
 Usa la barra espaciadota paradisparar <br />

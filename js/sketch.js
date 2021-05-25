@@ -73,7 +73,6 @@ function setup(){
     wallHit.setVolume(0.7);
     alienHit.setVolume(0.3);
     playerHit.setVolume(0.3);
-    bgSound.loop();
     wallY = height - 125;
     //Cantidad de escudos
     maxShields = Math.floor(((width)/100)/2);
@@ -193,7 +192,7 @@ function keyPressed(){
     else{
         if(keyCode === 13){
             menu = false;
-            bgSound.play()
+            bgSound.loop();
         }
     }
 }

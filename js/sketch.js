@@ -34,7 +34,7 @@ let pointsPlayer = 0;
 let items = [];
 let shieldSound;
 let playerShield;
-let selectedItem = -1,selectedColor = [16, 181, 227];
+let selectedColor = [16, 181, 227];
 let gameOver = false;
 let pause = false;
 let menu = true,bgSound;
@@ -99,6 +99,12 @@ function loadItems(){
 }
 function showItems(){
     let x=(width/2) - (items.length)*32, y = 10;
+    if(items[2].using){
+        push()
+        fill(selectedColor);
+        rect(x + 50,y+40,(rapidFireDuration/6)*150,10);
+        pop()
+    }
     items.forEach((item,index) => {
         if(!item.ready && item.progress == 255){
             item.ready = true; 
@@ -436,8 +442,9 @@ function draw(){
                         canShot = true;
                     if(items[2].using){
                         console.log(rapidFireDuration)
-                        if(frameCount%60=== 0)
+                        if(frameCount%60=== 0){
                             rapidFireDuration--;
+                        }
 
                         if(rapidFireDuration === 0){
                             items[2].using = false;

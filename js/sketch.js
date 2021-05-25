@@ -288,7 +288,7 @@ function newLevel(){
     alienSpeedX+=2;
     alienSpeedY++;
     if(playerFireRate > 10)
-        playerFireRate = initialFireRate - (level*2);
+        playerFireRate = initialFireRate - (level*4);
     if(cantY<= 6)
         cantY++;
     if(cantX <=20){
@@ -444,7 +444,7 @@ function draw(){
                             items[2].using = false;
                             items[2].ready = false; 
                             items[2].progress = 0;
-                            playerFireRate = initialFireRate - (level*2);
+                            playerFireRate = initialFireRate - (level*4);
                         }
                     }
                     drawLifes()

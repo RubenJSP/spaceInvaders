@@ -514,6 +514,7 @@ function draw(){
                 text("Use keys A & S for moving",width/2,height/2 + 160);
                 text("Press SPACEBAR for shooting",width/2,height/2 + 190);
                 text("Use keys 1, 2, 3 for select your abilities",width/2,height/2 + 220);
+                text("Use P for pause/resume THE GAME",width/2,height/2 + 250);
                 textSize(10)
                 fill([71, 245, 100])
                 text("By: Ruben J. Sandoval",width/2,height/2 + 240);

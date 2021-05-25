@@ -517,7 +517,7 @@ function draw(){
                 text("Use P for pause/resume THE GAME",width/2,height/2 + 250);
                 textSize(10)
                 fill([71, 245, 100])
-                text("By: Ruben J. Sandoval",width/2,height/2 + 240);
+                text("By: Ruben J. Sandoval",width/2,height/2 + 280);
             pop()
     }
 

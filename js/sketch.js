@@ -504,26 +504,28 @@ function draw(){
         }  
     }else{
         push()
+        let offset = height/6;
             imageMode(CENTER);
-            image(logo,width/2,300,logo.width/1.5,logo.height/1.5);
+            logo.resize(height/1.5,height/2.5);
+            image(logo,width/2,(logo.height/2) + offset);
             fill(255);
                 textAlign(CENTER)
                 textSize(50);
                 textSize(30)
                 fill([Math.floor(Math.random()*155),Math.floor(Math.random()*200),Math.floor(Math.random()*255)])
-                text("Press ENTER to START",width/2,height/2 + 80);
+                text("Press ENTER to START",width/2,logo.height + 50 + offset);
                 textSize(25)
                 fill([245, 239, 71])
-                text("How to play?",width/2,height/2 + 130);
+                text("How to play?",width/2,logo.height + 80 + offset);
                 textSize(18)
                 fill([245, 71, 71])
-                text("Use keys A and D for moving",width/2,height/2 + 160);
-                text("Press SPACEBAR for shooting",width/2,height/2 + 190);
-                text("Use keys 1, 2, 3 for select your abilities",width/2,height/2 + 220);
-                text("Use P for pause/resume THE GAME",width/2,height/2 + 250);
-                textSize(10)
+                text("Use keys A and D for moving",width/2,logo.height + 120 + offset);
+                text("Press SPACEBAR for shooting",width/2,logo.height + 150 + offset);
+                text("Use keys 1, 2, 3 for select your abilities",width/2,logo.height + 180 + offset);
+                text("Use P for pause/resume THE GAME",width/2,logo.height + 210 + offset);
+                textSize(12)
                 fill([71, 245, 100])
-                text("By: Ruben J. Sandoval",width/2,height/2 + 280);
+                text("By: Ruben J. Sandoval",width/2,logo.height + 230 + offset);
             pop()
     }
 

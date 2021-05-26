@@ -22,12 +22,12 @@ class Player{
     move(){
         if(keyIsPressed){
             if(this.x > 0){
-                if(keyCode === 65){
+                if(keyIsDown(65)){
                     this.x-=this.speed; 
                 }
             }
             if(this.x < this.maxW - this.w){
-                if(keyCode === 68){
+                if(keyIsDown(68)){
                     this.x+=this.speed;
                 }
             }

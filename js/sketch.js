@@ -45,7 +45,7 @@ function preload(){
     alienBullet = loadImage('assets/bullets/2.png');
     alienDeath = loadImage('assets/alienDeath.png');
     logo = loadImage('assets/logo.png');
-    bg = loadImage('assets/background.jpg');
+    bg = loadImage('assets/background.gif');
     aliensImg = [
         [loadImage('assets/alien1.png'),loadImage('assets/alien1_1.png')],
         [loadImage('assets/alien2.png'),loadImage('assets/alien2_1.png')],

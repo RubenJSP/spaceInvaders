@@ -6,3 +6,4 @@ Usa las teclas A y D para moverte <br />
 Usa la barra espaciadora para disparar <br />
 Usa la tecla P para pausar/continuar el juego <br />
 Usa los números 1,2,3 para seleccionar tus habilidades<br />
+[Plaey here!](https://rubenjsp.github.io/spaceInvaders/)
